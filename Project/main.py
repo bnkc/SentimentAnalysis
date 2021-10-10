@@ -147,7 +147,7 @@ class SentimentAnalysis:
 
 
 if __name__ == "__main__":
-    information = pd.read_csv('Project\Messages - Zachary Keith.csv', lineterminator='\n')
+    information = pd.read_csv('XXXXXXXXXXXXX', lineterminator='\n')
 
     sa = SentimentAnalysis(information)
     sa.executor()
