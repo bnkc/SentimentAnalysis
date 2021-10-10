@@ -56,8 +56,8 @@ def lastMonth(info):
     words = df['Text'].apply(lambda x: " ".join([st.stem(word) for word in x.split()]))
 
 
-    #loop through the column messages to rate each message with sentement
-    #and then average the message sentament dependent on # of texts
+    #loop through the column messages to rate each message with sentiment
+    #and then average the message sentiment dependent on # of texts
     count_positive = 0
     count_negative = 0
     count_neutral = 0
